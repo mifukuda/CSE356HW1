@@ -5,7 +5,7 @@ server {
         root /var/www/mifukuda.cse356.compas.cs.stonybrook.edu/html;
         index index.html index.htm index.nginx-debian.html hw0.html hw1.html;
 
-        server_name mifukuda.cse356.compas.cs.stonybrook.edu www.mifukuda.cse356.compas.cs.stonybrook.edu;
+        server_name _;
 
         location / {
                 try_files $uri $uri/ =404;
